@@ -1,0 +1,41 @@
+package Exerciseselfprogramming;
+
+public class Operator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int x = 12;
+	    int y = 57;
+	    int z = 89;
+	    int w = 49;
+	    int add, minus, multiplication, division, modulos, increment, decrement;
+	   
+	    
+	    add = x + y ;
+	    minus = y - x ;
+	    multiplication = y * x ;
+	    division = y/x ;
+	    modulos = x % w ;
+	    increment = ++z ;
+	    decrement = --w ;
+	    
+	    System.out.println("add=" + add);  
+	    System.out.println("minus=" + minus);
+	    System.out.println("multiplication=" + multiplication);
+	    System.out.println("division=" + division); 
+	    System.out.println("modulos=" + modulos); 
+	    System.out.println("increment=" + increment); 
+	    System.out.println("decrement=" + decrement);
+	}
+
+}
+
+OUTPUT
+add=69
+minus=45
+multiplication=684
+division=4
+modulos=12
+increment=90
+decrement=48

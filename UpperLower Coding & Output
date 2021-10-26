@@ -1,0 +1,22 @@
+package SelfProgramming;
+
+public class Text {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+        String txt = "MUhaMAD AImiL DanIEL BIN LatIF";
+		
+	    System.out.println("The length of the text string is: " + txt.length());
+	    System.out.println(txt.toUpperCase());
+	    System.out.println(txt.toLowerCase());
+
+	}
+
+}
+
+OUTPUT
+
+The length of the text string is: 30
+MUHAMAD AIMIL DANIEL BIN LATIF
+muhamad aimil daniel bin latif
